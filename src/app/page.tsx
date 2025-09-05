@@ -538,8 +538,8 @@ export default function HomePage() {
       )}
 
       {/* Table */}
-      <div className="mt-6 card overflow-hidden">
-        <table className="min-w-full border-collapse">
+      <div className="mt-6 card overflow-x-auto">
+  <table className="w-full min-w-[900px] border-collapse">
           <thead>
             <tr className="bg-slate-50 text-xs font-semibold uppercase tracking-wide text-slate-600">
               <th className="px-4 py-3 text-left">
@@ -591,12 +591,12 @@ export default function HomePage() {
                     <td className="px-4 py-3">
                       <Pill color="blue">{p.category}</Pill>
                     </td>
-                    <td className="px-4 py-3 text-right tabular-nums">
-                      {inr.format(p.price)}
-                    </td>
-                    <td className="px-4 py-3 text-right tabular-nums">
-                      {p.qty}
-                    </td>
+                    <td className="px-4 py-3 text-right tabular-nums whitespace-nowrap">
+  {inr.format(p.price)}
+</td>
+<td className="px-4 py-3 text-right tabular-nums whitespace-nowrap">
+  {p.qty}
+</td>
                     <td className="px-4 py-3">
                       {p.status === "active" ? (
                         <Pill color="green">active</Pill>
@@ -604,13 +604,13 @@ export default function HomePage() {
                         <Pill color="slate">archived</Pill>
                       )}
                     </td>
-                    <td className="px-4 py-3">
-                      {new Date(p.createdAt).toLocaleDateString(undefined, {
-                        day: "2-digit",
-                        month: "2-digit",
-                        year: "numeric",
-                      })}
-                    </td>
+                    <td className="px-4 py-3 whitespace-nowrap">
+  {new Date(p.createdAt).toLocaleDateString(undefined, {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+  })}
+</td>
                     <td className="px-4 py-3">
                       <div className="flex justify-end gap-2">
                         <button
