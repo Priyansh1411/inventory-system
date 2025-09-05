@@ -24,10 +24,10 @@ Includes authentication (login/signup), bulk actions, and CSV export functionali
 ![Login Page](screenshots/login.png)
 
 ### 📊 Dashboard  
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Dashboard.png)
 
 ### ➕ Add Product  
-![Add Product](screenshots/add-product.png)
+![Add Product](screenshots/addProduct.png)
 
 ---
 
