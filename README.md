@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📦 Complete Inventory Management System
 
-## Getting Started
+A full-stack inventory management system built with **Next.js 14**, **MongoDB**, and **NextAuth.js**.  
+Users can create, update, delete, and filter product entries (name, category, price, quantity, status).  
+Includes authentication (login/signup) and CSV export functionality.
 
-First, run the development server:
+---
 
+## ✨ Features
+- 🔐 User authentication (NextAuth.js with credentials provider)  
+- ➕ Add, edit, and delete products  
+- 🗂️ Bulk delete & bulk status update (active/archived)  
+- 🔍 Search, filter, sort, and pagination  
+- 📊 Dashboard with total stock, total value, and low-stock alerts  
+- 📤 Export product list to CSV  
+- 💻 Clean, responsive UI with Tailwind CSS  
+- ⚡ Serverless API routes with Next.js App Router  
+
+---
+
+## 🚀 Tech Stack
+- [Next.js 14](https://nextjs.org/) – React framework with App Router  
+- [MongoDB](https://www.mongodb.com/) – Database  
+- [Mongoose](https://mongoosejs.com/) – ODM for MongoDB  
+- [NextAuth.js](https://next-auth.js.org/) – Authentication  
+- [Tailwind CSS](https://tailwindcss.com/) – Styling  
+- [Vercel](https://vercel.com/) – Deployment  
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repo
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/Priyansh1411/inventory-system.git
+cd inventory-system
