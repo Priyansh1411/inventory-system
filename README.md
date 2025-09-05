@@ -2,7 +2,7 @@
 
 A full-stack inventory management system built with **Next.js 14**, **MongoDB**, and **NextAuth.js**.  
 Users can create, update, delete, and filter product entries (name, category, price, quantity, status).  
-Includes authentication (login/signup) and CSV export functionality.
+Includes authentication (login/signup), bulk actions, and CSV export functionality.
 
 ---
 
@@ -15,6 +15,19 @@ Includes authentication (login/signup) and CSV export functionality.
 - 📤 Export product list to CSV  
 - 💻 Clean, responsive UI with Tailwind CSS  
 - ⚡ Serverless API routes with Next.js App Router  
+
+---
+
+## 📷 Screenshots
+
+### 🔑 Login / Signup  
+![Login Page](screenshots/login.png)
+
+### 📊 Dashboard  
+![Dashboard](screenshots/dashboard.png)
+
+### ➕ Add Product  
+![Add Product](screenshots/add-product.png)
 
 ---
 
@@ -32,9 +45,5 @@ Includes authentication (login/signup) and CSV export functionality.
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/Priyansh1411/inventory-system.git
+git clone https://github.com/your-username/inventory-system.git
 cd inventory-system
-
-
-
-
