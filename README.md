@@ -34,3 +34,12 @@ Includes authentication (login/signup) and CSV export functionality.
 ```bash
 git clone https://github.com/Priyansh1411/inventory-system.git
 cd inventory-system
+
+
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](public/screenshots/Dashboard.png)
+
+### Add Product
+![Add Product](public/screenshots/addProduct.png)
